@@ -4,7 +4,7 @@ pipeline {
 	  stage('Build') {
 		  steps {
 			  script {
-				  sh 'python get-fake-data.py'
+				  sh '/usr/bin/python3/python get-fake-data.py'
 			  }
 		  }
 	  }
